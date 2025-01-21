@@ -1,0 +1,82 @@
+[
+    {
+        "accentColor": "#ffff9700",
+        "backgroundColor": "#ffffffff",
+        "bottomBackground": "#fffff4e6",
+        "isNightTheme": false,
+        "primaryColor": "#ffffffff",
+        "themeName": "朝霞"
+    },
+    {
+        "accentColor": "#ff2f72e5",
+        "backgroundColor": "#fff1f5f8",
+        "bottomBackground": "#ffdce8f6",
+        "isNightTheme": false,
+        "primaryColor": "#fff1f5f8",
+        "themeName": "冰川"
+    },
+    {
+        "accentColor": "#ff222222",
+        "backgroundColor": "#fff9f2e8",
+        "bottomBackground": "#ffe3dcd2",
+        "isNightTheme": false,
+        "primaryColor": "#fff9f2e8",
+        "themeName": "莎草"
+    },
+    {
+        "accentColor": "#ffe8bd6f",
+        "backgroundColor": "#ff191e22",
+        "bottomBackground": "#ff2e2f2a",
+        "isNightTheme": true,
+        "primaryColor": "#ff191e22",
+        "themeName": "晚霞"
+    },
+    {
+        "accentColor": "#ff0096ff",
+        "backgroundColor": "#ff000000",
+        "bottomBackground": "#ff010f1a",
+        "isNightTheme": true,
+        "primaryColor": "#ff000000",
+        "themeName": "极夜"
+    },
+    {
+        "accentColor": "#ff00bbca",
+        "backgroundColor": "#ff333949",
+        "bottomBackground": "#ff2f4656",
+        "isNightTheme": true,
+        "primaryColor": "#ff333949",
+        "themeName": "荧光"
+    },
+    {
+        "accentColor": "#ff1980ff",
+        "backgroundColor": "#ffffffff",
+        "bottomBackground": "#ffffffff",
+        "isNightTheme": false,
+        "primaryColor": "#ffffffff",
+        "themeName": "轻墨-浅色"
+    },
+    {
+        "accentColor": "#ff276bfe",
+        "backgroundColor": "#ff000000",
+        "bottomBackground": "#ff000000",
+        "isNightTheme": true,
+        "primaryColor": "#ff000000",
+        "themeName": "轻墨-深色"
+    },
+    {
+        "accentColor": "#ff429df0",
+        "backgroundColor": "#fff4f5f7",
+        "bottomBackground": "#ffffffff",
+        "isNightTheme": false,
+        "primaryColor": "#fff4f5f7",
+        "themeName": "微信阅读-浅色"
+    },
+    {
+        "accentColor": "#ff1b75cb",
+        "backgroundColor": "#ff000000",
+        "bottomBackground": "#ff1c1c1c",
+        "isNightTheme": true,
+        "primaryColor": "#ff000000",
+        "themeName": "微信阅读-深色"
+    }
+]

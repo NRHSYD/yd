@@ -1,0 +1,9 @@
+[
+    {
+        "enabled": true,
+        "name": "汉典",
+        "showRule": "@js:\nJ = org.jsoup.Jsoup.parse(result);\nJ.select(\"img,.bbs_link,:has(>ins),.copyright\").remove();\nJ.select(\".dictionaries\").html();",
+        "sortNumber": 1,
+        "urlRule": "https://www.zdic.net/hans/{{key}}"
+    }
+]
