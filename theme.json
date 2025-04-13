@@ -5,7 +5,7 @@
         "bottomBackground": "#fffff4e6",
         "isNightTheme": false,
         "primaryColor": "#ffffffff",
-        "themeName": "朝霞"
+        "themeName": "厚墨-朝霞"
     },
     {
         "accentColor": "#ff2f72e5",
@@ -13,7 +13,7 @@
         "bottomBackground": "#ffdce8f6",
         "isNightTheme": false,
         "primaryColor": "#fff1f5f8",
-        "themeName": "冰川"
+        "themeName": "厚墨-冰川"
     },
     {
         "accentColor": "#ff222222",
@@ -21,7 +21,7 @@
         "bottomBackground": "#ffe3dcd2",
         "isNightTheme": false,
         "primaryColor": "#fff9f2e8",
-        "themeName": "莎草"
+        "themeName": "厚墨-莎草"
     },
     {
         "accentColor": "#ffe8bd6f",
@@ -29,7 +29,7 @@
         "bottomBackground": "#ff2e2f2a",
         "isNightTheme": true,
         "primaryColor": "#ff191e22",
-        "themeName": "晚霞"
+        "themeName": "厚墨-晚霞"
     },
     {
         "accentColor": "#ff0096ff",
@@ -37,7 +37,7 @@
         "bottomBackground": "#ff010f1a",
         "isNightTheme": true,
         "primaryColor": "#ff000000",
-        "themeName": "极夜"
+        "themeName": "厚墨-极夜"
     },
     {
         "accentColor": "#ff00bbca",
@@ -45,7 +45,7 @@
         "bottomBackground": "#ff2f4656",
         "isNightTheme": true,
         "primaryColor": "#ff333949",
-        "themeName": "荧光"
+        "themeName": "厚墨-荧光"
     },
     {
         "accentColor": "#ff1980ff",

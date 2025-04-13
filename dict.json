@@ -1,23 +1,37 @@
 [
-    {
-        "enabled": true,
-        "name": "汉典",
-        "showRule": "@js:\nJ = org.jsoup.Jsoup.parse(result);\nJ.select(\"img,.bbs_link,:has(>ins),.copyright\").remove();\nJ.select(\".dictionaries\").html();",
-        "sortNumber": 1,
-        "urlRule": "https://www.zdic.net/hans/{{key}}"
-    },
-    {
-        "enabled": true,
-        "name": "搜狗百科",
-        "showRule": "@js:\nJ = org.jsoup.Jsoup.parse(result);\nJ.select(\"img,script,.multi-down,.no-read,:has(>.feedback),sup,.distribution-icon\").remove();\nJ.select(\"#main\").html();",
-        "sortNumber": 2,
-        "urlRule": "https://baike.sogou.com/m/fullLemma?key={{key}}&frombksearch=search&baike_inner=search&jumpStartTime={{Date.now()}}&addressbar=hide"
-    },
-    {
-        "enabled": true,
-        "name": "百度百科",
-        "showRule": "@js:\nJ = org.jsoup.Jsoup.parse(result);\nJ.select(\"img,sup,[data-tts-catalog],:has(>[data-tts-catalog])+div\").remove();\nJ.select(\".J-lemma-content\").html();",
-        "sortNumber": 3,
-        "urlRule": "https://baike.baidu.com/item/{{key}}?timestamp={{Date.now()}}&fromModule=search_box"
-    }
+  {
+    "enabled": true,
+    "name": "搜狗百科",
+    "showRule": "@js:\nJ = org.jsoup.Jsoup.parse(result);\nJ.select(\"img,script,.multi-down,.no-read,:has(>.feedback),sup,.distribution-icon\").remove();\nJ.select(\"#main\").html();",
+    "sortNumber": 0,
+    "urlRule": "https://baike.sogou.com/m/fullLemma?key={{key}}&frombksearch=search&baike_inner=search&jumpStartTime={{Date.now()}}&addressbar=hide"
+  },
+  {
+    "enabled": false,
+    "name": "百度百科",
+    "showRule": "@js:\nJ = org.jsoup.Jsoup.parse(result);\nJ.select(\"img,sup,[data-tts-catalog],:has(>[data-tts-catalog])+div\").remove();\nJ.select(\".J-lemma-content\").html();",
+    "sortNumber": 1,
+    "urlRule": "https://baike.baidu.com/item/{{key}}?timestamp={{Date.now()}}&fromModule=search_box"
+  },
+  {
+    "enabled": true,
+    "name": "汉典",
+    "showRule": "@js:\nJ = org.jsoup.Jsoup.parse(result);\nJ.select(\"img,.bbs_link,:has(>ins),.copyright\").remove();\nJ.select(\".dictionaries\").html();",
+    "sortNumber": 2,
+    "urlRule": "https://www.zdic.net/hans/{{key}}"
+  },
+  {
+    "enabled": true,
+    "name": "海词英文",
+    "showRule": "body@all",
+    "sortNumber": 3,
+    "urlRule": "https://apii.dict.cn/mini.php?q={{key}}"
+  },
+  {
+    "enabled": false,
+    "name": "必应词典",
+    "showRule": "@js:\nJ = org.jsoup.Jsoup.parse(result);\nJ.select(\"img,[id*=more]\").remove();\nJ.select(\".content\").html();",
+    "sortNumber": 4,
+    "urlRule": "https://cn.bing.com/dict/search?q={{key}}&FORM=HDRSC6"
+  }
 ]
